@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "Poppins", sans-serif;
+    src: url("/fonts/Poppins-ExtraBold.ttf") format("ttf");
+    font-size: 96px;
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: "Montserrat", sans-serif;
+    src: url("/fonts/Montserrat-Medium.ttf") format("ttf");
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -1,0 +1,180 @@
+:root{
+    --color-link: #000;
+    --color-title: #B88E2F;
+}
+
+.page{
+    background-color: #F6D8C6;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-content{
+    width: 100vw;
+    height: 5%;
+}
+
+.header__list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding-block-start: calc(1/5 * 120px);
+    padding-inline-start: calc(3/5 * 100px);
+}
+
+.header__list-item-link{
+    color: var(--color-link);
+    font-size: larger;
+}
+
+.main-content{
+    max-width: min(530px, 20%);
+    max-height: min-content;
+    margin: 100px 150px;
+}
+
+.main-text > h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    color: var(--color-title);
+    padding-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.main-text > h2{
+    font-family: "Poppins" , sans-serif;
+    font-weight: 400;
+    font-size: calc((96/3) * 6%);
+    color: var(--color-title);
+    letter-spacing: 6.38px;
+    padding-bottom: 32.43px;
+}
+
+
+.main-text > p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #111;
+    min-width: 530px; 
+    line-height: 150%;
+}
+
+.links{
+    margin-top: 71.75px;
+}
+
+.links-list{
+    list-style: none;
+     color: var(--color-link);
+}
+
+.link-items:not(:last-child){
+    padding-bottom: 15px;
+}
+
+.link-item{
+    color: var(--color-link);
+}
+
+.no-link{
+    text-decoration: none;
+}
+
+.image-link{
+   /* посмотреть как сделать выравнивание с ссылками */ 
+}
+
+.images-container{
+    position: relative;
+    bottom: 650px;
+}
+
+.first__image-shop{
+    position: absolute;
+    left: 800px;
+    top: 203px;
+    z-index: 1;
+}
+
+.second__image-shop{
+    position: absolute;
+    left: 1100px;
+    z-index: 0;
+}
+
+.vjs-tech{
+   padding-top: 30px;
+   max-width: 40vw;
+   max-height: 50vh;
+}
+
+input:not([type=checkbox]) {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  width: 100%;
+}
+
+input:not([type=checkbox])::placeholder {
+  color: rgb(0 0 0 / 0.6);
+}
+
+input:not([type=checkbox]):focus {
+  outline: 2px solid #000;
+  outline-offset: 0;
+}
+
+form {
+  padding: 45px;
+  background-color:#cd9e7a;
+  width: 768px;
+}
+
+form .button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  border: 1px solid #000;
+  padding: 10px 65px;
+  color: #000;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: inherit;
+  text-transform: uppercase;
+  background-color: var(--color-title);
+}
+
+form .button:hover {
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 0.15);
+  cursor: pointer;
+}
+
+form .button:focus {
+  outline: 2px solid #000;
+  outline-offset: 0;
+}
+
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.form-title{
+    font-family: "Poppins" , sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #1d3e77;
+}
